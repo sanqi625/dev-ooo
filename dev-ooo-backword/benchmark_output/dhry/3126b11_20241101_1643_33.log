@@ -1,0 +1,14 @@
+Chronologic VCS simulator copyright 1991-2022
+Contains Synopsys proprietary information.
+Compiler version T-2022.06_Full64; Runtime version T-2022.06_Full64;  Nov  1 16:43 2024
+
+Error-[FCNORW] Cannot open file
+  File 
+  '/data/usr/xuemy/dev_ooo_backword/toy_scalar/work/rtl_compile/simv.daidir//vcselab_master_mdbArchiveArray.db'
+  could not be opened for reading/writing due to 'No such file or directory'.
+  Please fix above error and compile again.
+
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:      0.250 seconds;       Data structure size:   0.0Mb
+Fri Nov  1 16:43:35 2024
