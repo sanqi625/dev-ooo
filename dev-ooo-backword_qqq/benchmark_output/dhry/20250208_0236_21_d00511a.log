@@ -1,0 +1,16 @@
+Chronologic VCS simulator copyright 1991-2022
+Contains Synopsys proprietary information.
+Compiler version T-2022.06_Full64; Runtime version T-2022.06_Full64;  Feb  8 02:36 2025
+[SYSTEM] Timeout threshold is set to 200000 cycles.
+WARNING: toy_top.u_toy_scalar.u_core.u_mext.metx_dw_div.U1.DWF_div_tc:
+ at time = 10: Division by zero.
+WARNING: toy_top.u_toy_scalar.u_core.u_mext.metx_dw_div.U1.DWF_rem_tc:
+ at time = 10: Division by zero.
+Fatal: "/home/zick/prj/dev-ooo-backword_qqq/rtl/toy_env_slv.sv", 55: toy_top.u_toy_env_slv: at time 4000100
+[SYSTEM] Timeout occurs after executing 200000 cycles !
+$finish called from file "/home/zick/prj/dev-ooo-backword_qqq/rtl/toy_env_slv.sv", line 55.
+$finish at simulation time              4000100
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 4000100
+CPU Time:      0.430 seconds;       Data structure size:   0.9Mb
+Sat Feb  8 02:37:20 2025

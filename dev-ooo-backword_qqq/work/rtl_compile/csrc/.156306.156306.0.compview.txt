@@ -1,0 +1,7 @@
+Command exited with non-zero status 255
+{"vcs1":{"timestamp_begin":1737709966.246479040, "rt":12.69, "ut":2.26, "st":0.31}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1737709965.954914162}
+{"VCS_COMP_START_TIME": 1737709965.954914162}
+{"VCS_COMP_END_TIME": 1737709978.995920302}
+{"VCS_USER_OPTIONS": "-kdb -full64 -debug_access -sverilog -f /home/zick/prj/dev-ooo-backword_qqq/vc/sim.f +lint=PCWM +lint=TFIPC-L +define+TOY_SIM"}
+{"vcs1": {"peak_mem": 156706}}

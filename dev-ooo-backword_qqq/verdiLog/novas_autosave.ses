@@ -1,0 +1,102 @@
+@verdi rc file Version 1.0
+[General]
+saveDB = TRUE
+relativePath = FALSE
+saveSingleView = FALSE
+saveNWaveWinId = 
+VerdiVersion = Verdi_T-2022.06
+[KeyNote]
+Line1 = Automatic Backup 0
+Line2 = Save Open Database Information: Yes
+Line3 = Path Option: Absolute Paths
+Line4 = Windows Option: All Windows
+[OneSearch]
+isExisted = TRUE
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+Console = FALSE
+powerDumped = 0
+[fusa]
+fdb_server = 
+fdb_proj = 
+fdb_campaign = 
+fdb_tool = 
+[hb]
+postSimFile = /home/zick/prj/dev-ooo-backword_qqq/wave.fsdb
+syncTime = 105170
+viewport = 0 23 1493 862 0 0 340 1491
+activeNode = "toy_top.u_toy_scalar.u_core.u_toy_issue.u_toy_physicial_regfile_top.u_int_physicial_regfile.u_toy_pre_alloc_buffer.genblk1[0].u_cmn_reg_slice_full"
+activeScope = "toy_top.u_toy_scalar.u_core.u_toy_issue.u_toy_physicial_regfile_top.u_int_physicial_regfile.u_toy_pre_alloc_buffer.genblk1[0].u_cmn_reg_slice_full"
+activeFile = "/home/zick/prj/dev-ooo-backword_qqq/rtl/cmn/cmn_reg_slice_full.sv"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 20
+baMode = True
+srcLineNum = True
+AutoWrap = True
+IdentifyFalseLogic = False
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+powerAwareAnnot = True
+safetyAwareAnnot = True
+amsAnnot = True
+DnDtraceCrossHierOnly = True
+leadingZero = False
+signalPane = False
+SourceVerticalScrollLines = 5
+Scope1 = "toy_top.u_toy_scalar.u_core.u_toy_issue.u_toy_physicial_regfile_top.u_int_physicial_regfile.u_toy_pre_alloc_buffer.genblk1[0].u_cmn_reg_slice_full"
+Scope2 = "toy_top.u_toy_scalar.u_core.u_toy_issue.u_toy_physicial_regfile_top.u_int_physicial_regfile.u_toy_pre_alloc_buffer.genblk1[0].genblk1"
+Scope3 = "toy_top.u_toy_scalar.u_core.u_toy_rename.genblk1[0]"
+Scope4 = "toy_top.u_toy_scalar.u_core.u_toy_decoder_top.DECODE_GEN[0].u_dec"
+Scope5 = "toy_top.u_toy_scalar.u_core.u_toy_rename.genblk1[1]"
+Scope6 = "toy_top.u_toy_scalar.u_core.u_toy_issue.u_toy_physicial_regfile_top.u_int_physicial_regfile.u_toy_pre_alloc_buffer"
+Scope7 = "toy_top.u_toy_scalar.u_core.u_toy_issue.u_toy_physicial_regfile_top.u_int_physicial_regfile.u_toy_pre_alloc_buffer.genblk1[0]"
+Scope8 = "toy_top.u_toy_scalar.u_core.u_toy_issue.u_toy_physicial_regfile_top.u_int_physicial_regfile"
+Scope9 = "toy_top.u_toy_scalar.u_core.u_toy_issue.u_toy_physicial_regfile_top"
+Scope10 = "toy_top.u_toy_scalar.u_core.u_toy_issue"
+multipleSelection = 1 27 4 0 0
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.design]
+importCmd = "-sv" "+define+TOY_SIM" "-f" "/home/zick/prj/dev-ooo-backword_qqq/vc/sim.f" 
+invokeDir = /home/zick/prj/dev-ooo-backword_qqq
+[hb.sourceTab.1]
+scope = toy_top.u_toy_scalar.u_core.u_toy_issue.u_toy_physicial_regfile_top.u_int_physicial_regfile.u_toy_pre_alloc_buffer.genblk1[0].u_cmn_reg_slice_full
+File = /home/zick/prj/dev-ooo-backword_qqq/rtl/cmn/cmn_reg_slice_full.sv
+Line = 21
+[nMemoryManager]
+WaveformFile = /home/zick/prj/dev-ooo-backword_qqq/wave.fsdb
+UserActionNum = 0
+nMemWindowNum = 0
+[wave.0]
+viewPort = 0 25 1493 375 215 148
+primaryWindow = TRUE
+SessionFile = /home/zick/prj/dev-ooo-backword_qqq/verdiLog/novas_autosave.ses.wave.0
+displayGrid = FALSE
+hierarchicalName = FALSE
+snap = TRUE
+displayLeadingZeros = FALSE
+fixDelta = TRUE
+displayCursorMarker = FALSE
+autoUpdate = FALSE
+highlightGlitchs = FALSE
+waveformSyncCursorMarker = FALSE
+waveformSyncHorizontalRange = FALSE
+waveformSyncVerticalscroll = FALSE
+displayErrors = TRUE
+displayMsgSymbols = TRUE
+showMsgDescriptions = TRUE
+autoFit = FALSE
+displayDeltaY = FALSE
+centerCursor = FALSE
+fsaRegMask = TRUE
+fsaCoreMask = TRUE
+fsaSfsmMask = TRUE
+fsaEcrMask = TRUE

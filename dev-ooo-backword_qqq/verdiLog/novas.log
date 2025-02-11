@@ -1,0 +1,86 @@
+Verdi (R)
+
+Release Verdi_T-2022.06 for (RH Linux x86_64/64bit) -- Sun May 29 04:59:55 PDT 2022
+
+Copyright (c) 1999 - 2022 Synopsys, Inc.
+This software and the associated documentation are proprietary to Synopsys, Inc. 
+This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. 
+All other use, reproduction, or distribution of this software is strictly prohibited.
+
+
+Info: Running in interactive mode.
+Info: Running in interactive mode.
+Info: Running in interactive mode.
+Info: Running in interactive mode.
+Info: Running in interactive mode.
+Info: Running in interactive mode.
+Info: Running in interactive mode.
+Info: Running in interactive mode.
+Info: Running in interactive mode.
+Info: Running in interactive mode.
+Info: Running in interactive mode.
+Info: Running in interactive mode.
+Info: Running in interactive mode.
+Info: Running in interactive mode.
+Info: Running in interactive mode.
+Info: Running in interactive mode.
+Info: Running in interactive mode.
+Info: Running in interactive mode.
+Info: Running in interactive mode.
+Info: Running in interactive mode.
+Info: Running in interactive mode.
+Info: Running in interactive mode.
+Info: Running in interactive mode.
+Info: Running in interactive mode.
+Info: Running in interactive mode.
+Info: Running in interactive mode.
+Info: Running in interactive mode.
+Info: Running in interactive mode.
+Info: Running in interactive mode.
+Info: Running in interactive mode.
+Info: Running in interactive mode.
+Info: Running in interactive mode.
+Info: Running in interactive mode.
+Info: Running in interactive mode.
+Info: Running in interactive mode.
+Info: Running in interactive mode.
+Inferring module toy_commit, file /home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv, line 1~893 (Verilog)
+
+
+Module toy_commit, File /home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv, Line 1~893, Total error(s) 0, warning(s) 6
+
+
+Verdi design analysis: total error(s) 0, total warning(s) 6.
+---- Any errors/warnings, please refer to file /home/zick/prj/dev-ooo-backword_qqq/verdiLog/novas.log -----------------------
+Inferring module toy_core, file /home/zick/prj/dev-ooo-backword_qqq/rtl/core/toy_core.sv, line 1~756 (Verilog)
+
+
+Verdi design analysis: total error(s) 0, total warning(s) 0.
+Inferring module toy_scalar, file /home/zick/prj/dev-ooo-backword_qqq/rtl/toy_scalar.sv, line 3~258 (Verilog)
+
+
+Verdi design analysis: total error(s) 0, total warning(s) 0.
+Inferring module toy_top, file /home/zick/prj/dev-ooo-backword_qqq/rtl/toy_top.sv, line 3~168 (Verilog)
+
+
+Module toy_top, File /home/zick/prj/dev-ooo-backword_qqq/rtl/toy_top.sv, Line 3~168, Total error(s) 0, warning(s) 1
+
+
+Verdi design analysis: total error(s) 0, total warning(s) 1.
+---- Any errors/warnings, please refer to file /home/zick/prj/dev-ooo-backword_qqq/verdiLog/novas.log -----------------------
+Inferring module toy_env_slv, file /home/zick/prj/dev-ooo-backword_qqq/rtl/toy_env_slv.sv, line 2~626 (Verilog)
+
+
+Module toy_env_slv, File /home/zick/prj/dev-ooo-backword_qqq/rtl/toy_env_slv.sv, Line 2~626, Total error(s) 0, warning(s) 6
+
+
+Verdi design analysis: total error(s) 0, total warning(s) 6.
+---- Any errors/warnings, please refer to file /home/zick/prj/dev-ooo-backword_qqq/verdiLog/novas.log -----------------------
+[Symbol Library from default setting]
+  library Path = /home/zick/synopsys/tool/verdi/T-2022.06/share/symlib/64
+  library Name = default_u
+[Symbol Library from manual setting]
+  There are 0 library path(s) and 0 library name(s):
+
+
+Info: Running in interactive mode.

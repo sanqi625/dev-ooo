@@ -1,0 +1,61 @@
+debImport "-sv" "+define+TOY_SIM" "-f" \
+          "/home/zick/prj/dev-ooo-backword_qqq/vc/sim.f"
+nsMsgSwitchTab -tab general
+debLoadSimResult /home/zick/prj/dev-ooo-backword_qqq/wave.fsdb
+wvCreateWindow
+nsMsgSwitchTab -tab cmpl
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+verdiSetActWin -dock widgetDock_<Inst._Tree>
+srcHBSelect "toy_top" -win $_nTrace1
+srcSetScope "toy_top" -delim "." -win $_nTrace1
+srcHBSelect "toy_top" -win $_nTrace1
+srcHBSelect "toy_top.u_toy_scalar" -win $_nTrace1
+srcSetScope "toy_top.u_toy_scalar" -delim "." -win $_nTrace1
+srcHBSelect "toy_top.u_toy_scalar" -win $_nTrace1
+srcHBSelect "toy_top.u_toy_scalar.u_core" -win $_nTrace1
+srcSetScope "toy_top.u_toy_scalar.u_core" -delim "." -win $_nTrace1
+srcHBSelect "toy_top.u_toy_scalar.u_core" -win $_nTrace1
+srcHBSelect "toy_top.u_toy_scalar.u_core.u_toy_rename" -win $_nTrace1
+srcSetScope "toy_top.u_toy_scalar.u_core.u_toy_rename" -delim "." -win $_nTrace1
+srcHBSelect "toy_top.u_toy_scalar.u_core.u_toy_rename" -win $_nTrace1
+wvSetCursor -win $_nWave2 20450.185817
+verdiSetActWin -win $_nWave2
+wvSetCursor -win $_nWave2 17380.182135
+wvDisplayGridCount -win $_nWave2 -off
+wvGetSignalClose -win $_nWave2
+wvReloadFile -win $_nWave2
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "clk" -line 5 -pos 1 -win $_nTrace1
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+wvAddSignal -win $_nWave2 "/toy_top/u_toy_scalar/u_core/u_toy_rename/clk"
+wvSetPosition -win $_nWave2 {("G1" 0)}
+wvSetPosition -win $_nWave2 {("G1" 1)}
+wvSetPosition -win $_nWave2 {("G1" 1)}
+wvZoomAll -win $_nWave2
+wvZoomAll -win $_nWave2
+verdiSetActWin -win $_nWave2
+wvDisplayGridCount -win $_nWave2 -off
+wvGetSignalClose -win $_nWave2
+wvReloadFile -win $_nWave2
+wvZoomAll -win $_nWave2
+wvZoomAll -win $_nWave2
+wvDisplayGridCount -win $_nWave2 -off
+wvGetSignalClose -win $_nWave2
+wvReloadFile -win $_nWave2
+wvDisplayGridCount -win $_nWave2 -off
+wvGetSignalClose -win $_nWave2
+wvReloadFile -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "G1" 1 )} 
+wvCut -win $_nWave2
+wvSetPosition -win $_nWave2 {("G2" 0)}
+wvSetPosition -win $_nWave2 {("G1" 0)}
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+wvAddSignal -win $_nWave2 "/toy_top/u_toy_scalar/u_core/u_toy_rename/clk"
+wvSetPosition -win $_nWave2 {("G1" 0)}
+wvSetPosition -win $_nWave2 {("G1" 1)}
+wvZoomAll -win $_nWave2
+wvZoomAll -win $_nWave2
+verdiSetActWin -win $_nWave2
+wvZoomAll -win $_nWave2
+wvZoomAll -win $_nWave2
+debExit

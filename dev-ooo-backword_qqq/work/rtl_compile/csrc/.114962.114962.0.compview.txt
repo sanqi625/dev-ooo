@@ -1,0 +1,5 @@
+{"vcs1":{"timestamp_begin":1739171431.397987744, "rt":10.83, "ut":0.07, "st":0.10}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1739171430.926713400}
+{"VCS_COMP_START_TIME": 1739171430.926713400}
+{"VCS_COMP_END_TIME": 1739171442.266624967}
+{"VCS_USER_OPTIONS": "-kdb -full64 -debug_access -sverilog -f /home/zick/prj/dev-ooo-backword_qqq/vc/sim.f +lint=PCWM +lint=TFIPC-L +define+TOY_SIM"}

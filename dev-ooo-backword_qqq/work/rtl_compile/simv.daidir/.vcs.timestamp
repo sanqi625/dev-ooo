@@ -1,0 +1,279 @@
+6        
+0 DW_div_function.inc
+0 /tools/synopsys/vcs/T-2022.06/etc/systemverilog/DW_div_function.inc
+0 DW_sqrt_function.inc
+0 /tools/synopsys/vcs/T-2022.06/etc/systemverilog/DW_sqrt_function.inc
+0 vcs/DW02_tree.v
+0 /tools/synopsys/vcs/T-2022.06/etc/systemverilog/vcs/DW02_tree.v
+36
++define+TOY_SIM
++itf+/tools/synopsys/vcs/T-2022.06/linux64/lib/vcsdp_lite.tab
++lint=PCWM
++lint=TFIPC-L
++vcsd1
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/tools/synopsys/vcs/T-2022.06/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /tools/synopsys/vcs/T-2022.06/linux64/lib/libvirsim.so /tools/synopsys/vcs/T-2022.06/linux64/lib/liberrorinf.so /tools/synopsys/vcs/T-2022.06/linux64/lib/libsnpsmalloc.so /tools/synopsys/vcs/T-2022.06/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/tools/synopsys/vcs/T-2022.06/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/home/zick/synopsys/tool/verdi/T-2022.06/share/PLI/VCS/LINUX64/pli.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/tools/synopsys/vcs/T-2022.06/include
+-Mxllcflags=
+-P
+-Xufe=2steps
+-debug_access
+-f /home/zick/prj/dev-ooo-backword_qqq/vc/sim.f
+-fsdb
+-full64
+-gen_obj
+-kdb
+-picarchive
+-sverilog
+/tools/synopsys/vcs/T-2022.06/linux64/bin/vcs1
+/home/zick/synopsys/tool/verdi/T-2022.06/share/PLI/VCS/LINUX64/verdi.tab
+/home/zick/prj/dev-ooo-backword_qqq/vc/sim.f
+61
+which_declare=declare -f
+XDG_SESSION_ID=4
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_DATA_DIRS=/home/zick/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+VSCODE_IPC_HOOK_CLI=/run/user/1000/vscode-ipc-5a093084-15b0-4300-aa0a-c0ce1efb4370.sock
+VSCODE_GIT_IPC_HANDLE=/run/user/1000/vscode-git-1c957a51c7.sock
+VSCODE_GIT_ASKPASS_NODE=/home/zick/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/node
+VSCODE_GIT_ASKPASS_MAIN=/home/zick/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass-main.js
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+VMR_MODE_FLAG=64
+VERDI_HOME=/home/zick/synopsys/tool/verdi/T-2022.06
+VCS_PATHMAP_PRELOAD_DONE=1
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_HOME=/tools/synopsys/vcs/T-2022.06
+VCS_EXEC_DONE=1
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH_OVERRIDE=linux
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOY_SCALAR_PATH=/home/zick/prj/dev-ooo-backword_qqq
+TOOL_HOME=/tools/synopsys/vcs/T-2022.06/linux64
+TERM_PROGRAM_VERSION=1.96.4
+TERM_PROGRAM=vscode
+SSL_CERT_FILE=/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem
+SSL_CERT_DIR=/etc/pki/tls/certs
+SSH_CONNECTION=192.168.110.1 49822 192.168.110.128 22
+SSH_CLIENT=192.168.110.1 49822 22
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SNPS_VERDI_INTERNAL_LP_XML_NEW_FLOW=1
+SNPS_VCS_CLANG_PATH=/tools/synopsys/vcs/T-2022.06/linux64/clang
+SNPS_INTERNAL_VCS_LINUX_OS=linux
+SIM_FILELIST=/home/zick/prj/dev-ooo-backword_qqq/vc/sim.f
+SELINUX_USE_CURRENT_RANGE=
+SELINUX_ROLE_REQUESTED=
+SELINUX_LEVEL_REQUESTED=
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+RV_TEST_PATH=/tools/hurj/riscv-proj
+OVA_UUM=0
+OSH=/home/zick/.oh-my-bash
+NOVAS_HOME=/home/zick/synopsys/tool/verdi/T-2022.06
+MFLAGS=
+MAKE_TERMOUT=/dev/pts/1
+MAKE_TERMERR=/dev/pts/1
+MAKELEVEL=1
+MAKEFLAGS=
+LSCOLORS=Gxfxcxdxdxegedabagacad
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LESS=-R
+LC_CTYPE=en_US.UTF-8
+LC_ALL=C
+HISTFILESIZE=2147450879
+HISTCONTROL=erasedups:ignoreboth
+GIT_ASKPASS=/home/zick/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass.sh
+DEBUGINFOD_URLS=https://debuginfod.centos.org/ 
+DC_HOME=/home/zick/synopsys/tool/syn/T-2022.03-SP2
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+COLORTERM=truecolor
+BASH_FUNC_which%%=() {  ( alias;_ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@_}
+0
+0
+160
+1652899486 /home/zick/synopsys/tool/syn/T-2022.03-SP2/dw/sim_ver/vcs/DW02_tree.v
+1652899353 /home/zick/synopsys/tool/syn/T-2022.03-SP2/dw/sim_ver/DW_sqrt_function.inc
+1652899353 /home/zick/synopsys/tool/syn/T-2022.03-SP2/dw/sim_ver/DW_div_function.inc
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/toy_top.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/toy_env_slv.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/mem/toy_mem_model_tage.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/mem/toy_mem_model_bit.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/mem/toy_mem_model_allude.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/mem/toy_mem_model.sv
+1652899352 /home/zick/synopsys/tool/syn/T-2022.03-SP2/dw/sim_ver/DW02_tree.v
+1652899319 /home/zick/synopsys/tool/syn/T-2022.03-SP2/dw/sim_ver/DW_fp_cmp.v
+1652899351 /home/zick/synopsys/tool/syn/T-2022.03-SP2/dw/sim_ver/DW_fp_dp2.v
+1652899350 /home/zick/synopsys/tool/syn/T-2022.03-SP2/dw/sim_ver/DW_fp_sqrt.v
+1652899351 /home/zick/synopsys/tool/syn/T-2022.03-SP2/dw/sim_ver/DW_fp_div.v
+1652899319 /home/zick/synopsys/tool/syn/T-2022.03-SP2/dw/sim_ver/DW_fp_mult.v
+1652899319 /home/zick/synopsys/tool/syn/T-2022.03-SP2/dw/sim_ver/DW_fp_addsub.v
+1652899351 /home/zick/synopsys/tool/syn/T-2022.03-SP2/dw/sim_ver/DW_fp_add.v
+1652899351 /home/zick/synopsys/tool/syn/T-2022.03-SP2/dw/sim_ver/DW_fp_i2flt.v
+1652899351 /home/zick/synopsys/tool/syn/T-2022.03-SP2/dw/sim_ver/DW_fp_flt2i.v
+1652899352 /home/zick/synopsys/tool/syn/T-2022.03-SP2/dw/sim_ver/DW02_mult.v
+1652899351 /home/zick/synopsys/tool/syn/T-2022.03-SP2/dw/sim_ver/DW_mult_pipe.v
+1652899351 /home/zick/synopsys/tool/syn/T-2022.03-SP2/dw/sim_ver/DW_div_pipe.v
+1652899351 /home/zick/synopsys/tool/syn/T-2022.03-SP2/dw/sim_ver/DW_div.v
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/toy_scalar.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/icache_2/mem/toy_imem_model.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/icache_2/mem/toy_itcm.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/icache_2/icache_mem.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/icache_2/icache_adapter.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/icache_2/cmn_real_mux_onehot.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/icache_2/v_en_decode.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/icache_2/arb_fp.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/icache_2/arb_vrp.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/icache_2/vrp_arb.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/icache_2/sync_fifo.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/icache_2/pre_allocate.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/icache_2/icache_data_array_ctrl.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/icache_2/icache_mshr_file.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/icache_2/icache_mshr_entry.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/icache_2/icache_prefetch_engine.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/icache_2/icache_tag_pipe_2tagram.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/icache_2/fix_priority_arb.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/icache_2/icache_req_arbiter.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/icache_2/cmn_onehot2bin2.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/icache_2/icache_top_scalar.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/mem/toy_mem_top.sv
+1737707829 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/toy_core.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/lsu/toy_priority_arb.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/lsu/toy_lsu_wb.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/lsu/toy_lsu_hazard.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/lsu/toy_lsu_decode.sv
+1737706557 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/lsu/toy_lsu_buffer.sv
+1738911678 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/lsu/toy_lsu.sv
+1738911657 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/lsu/toy_stq.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/lsu/toy_fanout.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/lsu/toy_dtcm_wrapper.sv
+1737706598 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/lsu/toy_agu.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/decode/toy_decoder_top.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/decode/toy_decoder.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/instruction_buffer/toy_issue_buffer.sv
+1739245122 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/exu/toy_alu.sv
+1737625885 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/exu/toy_mext.sv
+1737616893 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/exu/toy_eu_forward_mux.sv
+1739245137 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/exu/toy_csr.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/fetch/toy_fetch_queue.sv
+1739262044 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/fetch/toy_fetch_queue2.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/fetch/toy_fetch_buffer.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/wb/toy_forward_data.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/wb/toy_wb.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/bpu/toy_bpu_mem.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/bpu/toy_bpu.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/bpu/toy_pcgen.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/bpu/toy_fe_commit_buffer.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/bpu/toy_fe_ctrl.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/bpu/predecoder/filter_predecoder/filter_predecoder.v
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/bpu/predecoder/filter_predecoder/filter_subpredecoder_type_first.v
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/bpu/predecoder/filter_predecoder/filter_subpredecoder_type_second.v
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/bpu/predecoder/filter_predecoder/filter_subpredecoder_type_second_half.v
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/bpu/toy_bpu_filter32.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/bpu/toy_bpu_filter_predecoder.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/bpu/toy_bpu_ras.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/bpu/toy_bpu_btfifo.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/bpu/toy_bpu_rob_entry.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/bpu/toy_bpu_rob.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/bpu/toy_bpu_bpdec_entry_buffer.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/bpu/toy_bpu_bpdec.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/bpu/toy_bpu_btb.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/bpu/toy_bpu_btb_entry.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/bpu/toy_bpu_tage.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/bpu/toy_bpu_tage_tx_table.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/bpu/toy_bpu_tage_base_table.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/bpu/toy_bpu_l0btb.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/bpu/toy_bpu_l0btb_entry.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/bpu/toy_bpu_ghr.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/rename/arch_rf/toy_rename_regfile_entry.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/rename/arch_rf/toy_rename_regfile.sv
+1739258329 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/rename/toy_rename.sv
+1737623696 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/dispatch/toy_dispatch_crossbar.sv
+1737703797 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/dispatch/toy_dispatch.sv
+1739260959 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv
+1737446479 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/fpu/toy_float.sv
+1737706092 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/fpu/toy_float_wrapper.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/issue/phy_rf_status/toy_pre_alloc_buffer.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/issue/phy_rf_status/toy_physicial_regfile_top.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/issue/phy_rf_status/toy_physicial_regfile.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/issue/phy_rf_status/toy_physicial_regfile_entry.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/issue/phy_rf_data/toy_physicial_regfile_data.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/issue/phy_rf_data/toy_physicial_regfile_entry_data.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/issue/backup_arch_rf/toy_backup_rename_regfile_entry.sv
+1738997867 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/issue/backup_arch_rf/toy_backup_rename_regfile.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/issue/backup_arch_rf/toy_backup_rename_regfile_top.sv
+1737623308 /home/zick/prj/dev-ooo-backword_qqq/rtl/core/issue/toy_issue.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/cmn/booth_wallace_mul.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/cmn/cmn_tree_plru_comb.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/cmn/cmn_plru_node.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/cmn/cmn_arb_vr_matrix.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/cmn/cmn_arb_vrp_matrix.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/cmn/cmn_tree_plru.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/cmn/cmn_age_matrix.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/cmn/cmn_lfsr4.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/cmn/cmn_lead_one_rev.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/cmn/cmn_lead_one_msb.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/cmn/cmn_lead_one.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/cmn/cmn_fix_arb.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/cmn/cmn_reg_slice_forward.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/cmn/cmn_bin2onehot.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/cmn/cmn_onehot2bin.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/cmn/cmn_list_lead_one_rev.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/cmn/cmn_list_lead_one.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/cmn/cmn_reg_slice_full.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/cmn/cmn_reg_slice_backward.sv
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/bus/toy_bus_DWrap_network_toy_bus/toy_bus_DWrap_network_toy_bus.v
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/bus/toy_bus_DWrap_network_toy_bus/toy_bus_ToyCoreSlv_node_fetch_fwd_pld_type_ToyBusReq_bwd_pld_type_ToyBusAck_forward_True.v
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/bus/toy_bus_DWrap_network_toy_bus/toy_bus_ToyCoreSlv_node_lsu_fwd_pld_type_ToyBusReq_bwd_pld_type_ToyBusAck_forward_True.v
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/bus/toy_bus_DWrap_network_toy_bus/toy_bus_ToyMemMst_node_itcm_fwd_pld_type_ToyBusReq_bwd_pld_type_ToyBusAck_forward_True.v
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/bus/toy_bus_DWrap_network_toy_bus/toy_bus_ToyMemMst_node_dtcm_fwd_pld_type_ToyBusReq_bwd_pld_type_ToyBusAck_forward_True.v
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/bus/toy_bus_DWrap_network_toy_bus/toy_bus_ToyMemMst_node_eslv_fwd_pld_type_ToyBusReq_bwd_pld_type_ToyBusAck_forward_True.v
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/bus/toy_bus_DWrap_network_toy_bus/toy_bus_DDec2ch_node_dec_fetch_fwd_pld_type_ToyBusReq_bwd_pld_type_ToyBusAck.v
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/bus/toy_bus_DWrap_network_toy_bus/toy_bus_DDec_node_dec_fetch_pld_type_ToyBusReq_forward_True.v
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/bus/toy_bus_DWrap_network_toy_bus/toy_bus_DArb_node_dec_fetch_pld_type_ToyBusAck_forward_False.v
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/bus/toy_bus_DWrap_network_toy_bus/toy_bus_DDec2ch_node_dec_lsu_fwd_pld_type_ToyBusReq_bwd_pld_type_ToyBusAck.v
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/bus/toy_bus_DWrap_network_toy_bus/toy_bus_DDec_node_dec_lsu_pld_type_ToyBusReq_forward_True.v
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/bus/toy_bus_DWrap_network_toy_bus/toy_bus_DArb_node_dec_lsu_pld_type_ToyBusAck_forward_False.v
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/bus/toy_bus_DWrap_network_toy_bus/toy_bus_DDec2ch_node_dec_dmem_fwd_pld_type_ToyBusReq_bwd_pld_type_ToyBusAck.v
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/bus/toy_bus_DWrap_network_toy_bus/toy_bus_DDec_node_dec_dmem_pld_type_ToyBusReq_forward_True.v
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/bus/toy_bus_DWrap_network_toy_bus/toy_bus_DArb_node_dec_dmem_pld_type_ToyBusAck_forward_False.v
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/bus/toy_bus_DWrap_network_toy_bus/toy_bus_DArb2ch_node_arb_dtcm_fwd_pld_type_ToyBusReq_bwd_pld_type_ToyBusAck.v
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/bus/toy_bus_DWrap_network_toy_bus/toy_bus_DArb_node_arb_dtcm_pld_type_ToyBusReq_forward_True.v
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/bus/toy_bus_DWrap_network_toy_bus/toy_bus_DDec_node_arb_dtcm_pld_type_ToyBusAck_forward_False.v
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/bus/toy_bus_DWrap_network_toy_bus/toy_bus_DArb2ch_node_arb_itcm_fwd_pld_type_ToyBusReq_bwd_pld_type_ToyBusAck.v
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/bus/toy_bus_DWrap_network_toy_bus/toy_bus_DArb_node_arb_itcm_pld_type_ToyBusReq_forward_True.v
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/bus/toy_bus_DWrap_network_toy_bus/toy_bus_CmnAgeMtx_width_2.v
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/rtl/bus/toy_bus_DWrap_network_toy_bus/toy_bus_DDec_node_arb_itcm_pld_type_ToyBusAck_forward_False.v
+1739244095 /home/zick/prj/dev-ooo-backword_qqq/rtl/toy_pack.sv
+1737541001 /home/zick/prj/dev-ooo-backword_qqq/vc/icache_filelist.f
+1737541001 /home/zick/prj/dev-ooo-backword_qqq/vc/predecoder.f
+1737541001 /home/zick/prj/dev-ooo-backword_qqq/vc/toy_bus.f
+1737541001 /home/zick/prj/dev-ooo-backword_qqq/vc/toy_scalar.f
+1737615983 /home/zick/prj/dev-ooo-backword_qqq/vc/sim.f
+1653825972 /home/zick/synopsys/tool/verdi/T-2022.06/share/PLI/VCS/LINUX64/verdi.tab
+1654052745 /tools/synopsys/vcs/T-2022.06/linux64/lib/vcsdp_lite.tab
+7
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/dpi_c/draw_pic.c
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/plug_in/disassembler/toy_scalar_disasm_sv_wrapper.c
+1736992600 /home/zick/prj/dev-ooo-backword_qqq/plug_in/disassembler/riscv_disas.c
+1654054205 /tools/synopsys/vcs/T-2022.06/linux64/lib/libvirsim.so
+1654053585 /tools/synopsys/vcs/T-2022.06/linux64/lib/liberrorinf.so
+1654053489 /tools/synopsys/vcs/T-2022.06/linux64/lib/libsnpsmalloc.so
+1654053565 /tools/synopsys/vcs/T-2022.06/linux64/lib/libvfs.so
+1739262080 simv.daidir
+-1 partitionlib

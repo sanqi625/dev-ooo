@@ -1,0 +1,64 @@
+Chronologic VCS simulator copyright 1991-2022
+Contains Synopsys proprietary information.
+Compiler version T-2022.06_Full64; Runtime version T-2022.06_Full64;  Feb  9 21:37 2025
+[SYSTEM] Timeout threshold is set to 200000 cycles.
+*Verdi* Loading libsscore_vcs202206.so
+FSDB Dumper for VCS, Release Verdi_T-2022.06, Linux x86_64/64bit, 05/29/2022
+(C) 1996 - 2022 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'wave.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : Enable +all dumping.
+*Verdi* : End of traversing.
+*Verdi* : Begin traversing the MDAs, layer (0).
+*Verdi* : Enable +mda and +packedmda dumping.
+*Verdi* : End of traversing the MDAs.
+*Verdi* : fsdbDumpon - All FSDB files at 0 s.
+WARNING: toy_top.u_toy_scalar.u_core.u_mext.metx_dw_div.U1.DWF_div_tc:
+ at time = 10: Division by zero.
+WARNING: toy_top.u_toy_scalar.u_core.u_mext.metx_dw_div.U1.DWF_rem_tc:
+ at time = 10: Division by zero.
+Error Detect: [pc=00000000][pc_next=80000000][cycle=39]
+Error Detect: [pc=00000000][pc_next=80000000][cycle=39]
+Error Detect: [pc=00000000][pc_next=80000000][cycle=39]
+Error Detect: [pc=00000000][pc_next=80000000][cycle=39]
+Error Detect: [pc=00000000][pc_next=80000010][cycle=41]
+Error Detect: [pc=00000000][pc_next=80000010][cycle=41]
+Error Detect: [pc=00000000][pc_next=80000010][cycle=41]
+Error Detect: [pc=00000000][pc_next=80000010][cycle=41]
+Error Detect: [pc=00000000][pc_next=80000020][cycle=42]
+Error Detect: [pc=00000000][pc_next=80000020][cycle=42]
+Error Detect: [pc=00000000][pc_next=80000020][cycle=42]
+Error Detect: [pc=00000000][pc_next=80000020][cycle=42]
+Entry Buffer Error Detect: [pc=80000000][pc_update=00000000][cycle=42]
+Error Detect: [pc=00000000][pc_next=80000030][cycle=43]
+Error Detect: [pc=00000000][pc_next=80000030][cycle=43]
+Error Detect: [pc=00000000][pc_next=80000030][cycle=43]
+Error Detect: [pc=00000000][pc_next=80000030][cycle=43]
+Error Detect: [pc=00000000][pc_next=80000040][cycle=44]
+Error Detect: [pc=00000000][pc_next=80000040][cycle=44]
+Error Detect: [pc=00000000][pc_next=80000040][cycle=44]
+Error Detect: [pc=00000000][pc_next=80000040][cycle=44]
+Entry Buffer Error Detect: [pc=80000020][pc_update=00000000][cycle=44]
+Error Detect: [pc=00000000][pc_next=80000050][cycle=45]
+Error Detect: [pc=00000000][pc_next=80000050][cycle=45]
+Error Detect: [pc=00000000][pc_next=80000050][cycle=45]
+Error Detect: [pc=00000000][pc_next=80000050][cycle=45]
+Error Detect: [pc=00000000][pc_next=80000060][cycle=46]
+Error Detect: [pc=00000000][pc_next=80000060][cycle=46]
+Error Detect: [pc=00000000][pc_next=80000060][cycle=46]
+Error Detect: [pc=00000000][pc_next=80000060][cycle=46]
+Entry Buffer Error Detect: [pc=80000040][pc_update=00000000][cycle=46]
+Error Detect: [pc=00000000][pc_next=80000070][cycle=47]
+Error Detect: [pc=00000000][pc_next=80000070][cycle=47]
+Error Detect: [pc=00000000][pc_next=80000070][cycle=47]
+Error Detect: [pc=00000000][pc_next=80000070][cycle=47]
+Entry Buffer Error Detect: [pc=80000060][pc_update=00000000][cycle=48]
+Fatal: "/home/zick/prj/dev-ooo-backword_qqq/rtl/toy_env_slv.sv", 55: toy_top.u_toy_env_slv: at time 4000100
+[SYSTEM] Timeout occurs after executing 200000 cycles !
+$finish called from file "/home/zick/prj/dev-ooo-backword_qqq/rtl/toy_env_slv.sv", line 55.
+$finish at simulation time              4000100
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 4000100
+CPU Time:      1.610 seconds;       Data structure size:   0.9Mb
+Sun Feb  9 21:38:08 2025

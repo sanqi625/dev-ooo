@@ -1,0 +1,156 @@
+Chronologic VCS simulator copyright 1991-2022
+Contains Synopsys proprietary information.
+Compiler version T-2022.06_Full64; Runtime version T-2022.06_Full64;  Feb 10 21:40 2025
+[SYSTEM] Timeout threshold is set to 200000 cycles.
+*Verdi* Loading libsscore_vcs202206.so
+FSDB Dumper for VCS, Release Verdi_T-2022.06, Linux x86_64/64bit, 05/29/2022
+(C) 1996 - 2022 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'wave.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : Enable +all dumping.
+*Verdi* : End of traversing.
+*Verdi* : Begin traversing the MDAs, layer (0).
+*Verdi* : Enable +mda and +packedmda dumping.
+*Verdi* : End of traversing the MDAs.
+*Verdi* : fsdbDumpon - All FSDB files at 0 s.
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 0s failed at 0s
+	Offending '(cycle == stop_num)'
+WARNING: toy_top.u_toy_scalar.u_core.u_mext.metx_dw_div.U1.DWF_div_tc:
+ at time = 10: Division by zero.
+WARNING: toy_top.u_toy_scalar.u_core.u_mext.metx_dw_div.U1.DWF_rem_tc:
+ at time = 10: Division by zero.
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 110s failed at 110s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 130s failed at 130s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 150s failed at 150s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 170s failed at 170s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 190s failed at 190s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 210s failed at 210s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 230s failed at 230s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 250s failed at 250s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 270s failed at 270s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 290s failed at 290s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 310s failed at 310s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 330s failed at 330s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 350s failed at 350s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 370s failed at 370s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 390s failed at 390s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 410s failed at 410s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 430s failed at 430s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 450s failed at 450s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 470s failed at 470s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 490s failed at 490s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 510s failed at 510s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 530s failed at 530s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 550s failed at 550s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 570s failed at 570s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 590s failed at 590s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 610s failed at 610s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 630s failed at 630s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 650s failed at 650s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 670s failed at 670s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 690s failed at 690s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 710s failed at 710s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 730s failed at 730s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 750s failed at 750s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 770s failed at 770s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 790s failed at 790s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 810s failed at 810s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 830s failed at 830s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 850s failed at 850s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 870s failed at 870s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 890s failed at 890s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 910s failed at 910s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 930s failed at 930s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 950s failed at 950s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 970s failed at 970s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 990s failed at 990s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 1010s failed at 1010s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 1030s failed at 1030s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 1050s failed at 1050s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 1070s failed at 1070s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 1090s failed at 1090s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 1110s failed at 1110s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 1130s failed at 1130s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 1150s failed at 1150s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 1170s failed at 1170s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 1190s failed at 1190s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 1210s failed at 1210s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 1230s failed at 1230s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 1250s failed at 1250s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 1270s failed at 1270s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 1290s failed at 1290s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 1310s failed at 1310s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 1330s failed at 1330s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 1350s failed at 1350s
+	Offending '(cycle == stop_num)'
+"/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", 527: toy_top.u_toy_scalar.u_core.u_toy_commit.unnamed$$_0: started at 1370s failed at 1370s
+	Offending '(cycle == stop_num)'
+Value equals a (41), stopping simulation.
+$finish called from file "/home/zick/prj/dev-ooo-backword_qqq/rtl/core/commit/toy_commit.sv", line 529.
+$finish at simulation time                 1390
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1390
+CPU Time:      0.410 seconds;       Data structure size:   0.9Mb
+Mon Feb 10 21:40:53 2025

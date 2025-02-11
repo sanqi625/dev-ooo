@@ -1,0 +1,5 @@
+Command Line: /home/zick/synopsys/tool/verdi/T-2022.06/platform/LINUXAMD64/bin/Novas -sv +define+TOY_SIM -f /home/zick/prj/dev-ooo-backword_qqq/vc/sim.f -ssf wave.fsdb
+uname(Linux lserver 4.18.0-553.5.1.el8_10.x86_64 #1 SMP Wed Jun 5 09:12:13 EDT 2024 x86_64)
+\! Could not get the fileId of /home/zick/prj/dev-ooo-backword_qqq/wave.fsdb
+\! Could not get the fileId of /home/zick/prj/dev-ooo-backword_qqq/wave.fsdb
+au time 30053.989606 259.662704 113.547501 delta 652472320 652472320 total 1178574848 1178574848

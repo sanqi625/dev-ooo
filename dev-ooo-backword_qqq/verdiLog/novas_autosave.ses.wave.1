@@ -1,0 +1,73 @@
+Magic 271485
+Revision Verdi_T-2022.06
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 25 1493 335 162 65
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home/zick/prj/dev-ooo-backword_reference/wave.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 985.887148 1025.938171
+cursor 2130.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 4
+; marker line index
+markerPos 13
+
+; counter signal list
+; addCounterSig -Rising|-Falling|-AnyChange signal
+activeDirFile "" "/home/zick/prj/dev-ooo-backword_reference/wave.fsdb"
+
+addCounterSig -Rising "/toy_top/u_toy_scalar/u_core/u_toy_commit/clk"
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/home/zick/prj/dev-ooo-backword_reference/wave.fsdb"
+addSignal -h 15 /toy_top/u_toy_scalar/u_core/u_toy_commit/clk
+addSignal -h 15 -UNSIGNED -UDEC -holdScope RisingCounter_clk[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope v_st_ack_commit_en[3:0]
+addSignal -expanded -h 15 -holdScope v_bp_commit_pld[3:0]
+addSignal -h 15 -holdScope v_bp_commit_pld[3]
+addSignal -h 15 -holdScope v_bp_commit_pld[2]
+addSignal -h 15 -holdScope v_bp_commit_pld[1]
+addSignal -h 15 -holdScope v_bp_commit_pld[0]
+addSignal -expanded -h 15 -holdScope v_rf_commit_pld[3:0]
+addSignal -h 15 -holdScope v_rf_commit_pld[3]
+addSignal -h 15 -holdScope v_rf_commit_pld[2]
+addSignal -h 15 -holdScope v_rf_commit_pld[1]
+addSignal -h 15 -holdScope v_rf_commit_pld[0]
+addGroup "G2"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+

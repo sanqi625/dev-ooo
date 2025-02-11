@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1739258381.151821147, "rt":18.76, "ut":8.41, "st":0.47}}
+{"vcselab":{"timestamp_begin":1739258399.962741745, "rt":11.15, "ut":0.36, "st":0.08}}
+{"link":{"timestamp_begin":1739258411.155606575, "rt":0.27, "ut":0.16, "st":0.12}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1739258380.792964634}
+{"VCS_COMP_START_TIME": 1739258380.792964634}
+{"VCS_COMP_END_TIME": 1739258411.675473105}
+{"VCS_USER_OPTIONS": "-kdb -full64 -debug_access -sverilog -f /home/zick/prj/dev-ooo-backword_qqq/vc/sim.f +lint=PCWM +lint=TFIPC-L +define+TOY_SIM"}
+{"vcs1": {"peak_mem": 212097}}
+{"stitch_vcselab": {"peak_mem": 212693}}
